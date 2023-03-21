@@ -1,4 +1,10 @@
 # University of Michigan Open MI
 # Team 8: Harish Jaisankar, Sanjana Chauhan, Brian Lee, Jackson Morton, and Miles Vasquez
 
-This GitHub repository contains the files regarding OpenMI Team 8's machine learning model. This model utilizis NLTK, SciKit Learn, and TensorFlow to tokenize news headlines and determine if they are sarcastic or not.
+This GitHub repository contains the files regarding OpenMI Team 8's machine learning model. This model utilizes NLTK, SciKit Learn, and TensorFlow to tokenize news headlines and determine if they are sarcastic or not.
+We decided to make this our model due to our team's personal experiences during the COVID-19 pandemic. As everyone was forced to stay indoors, the internet got flooded with activity and with it, endless amounts of misinformation. The entire pandemic was a very politically charged time, fueled by varying philosophies on lockdowns, vaccines, geopolitical tensions, and unemployment. As a result, many people took to social media to share their thoughts, and it wasn't rare to see sarcastic and untrue statements everywhere.
+For people who weren't familiar with certain sectors, however, these politically charged comments were hard to identify, leading to lots of misconstrued notions about the pandemic. To facilitate our team's introduction to machine learning, we chose to explore various ML and NLP technologies, including TensorFlow, PyTorch, Numpy, and NLTK. We were excited to learn about natural language processing and decided to use our newly-learned skills to implement a NLP model designed to detect real headlines bs sarcastic ones.
+Our solution utilizes NLTK, TensorFlow, and SciKit Learn to read in a news headline and determine based on a variety of factors whether or not it is sarcastic. Our model was trained on a large dataset compiled by Rishabh Misra on Kaggle (https://www.kaggle.com/datasets/rmisra/news-headlines-dataset-for-sarcasm-detection) (view citation below) and was run on Google CoLab to reduce our wait time between iterations.
+
+1. Misra, Rishabh and Prahal Arora. "Sarcasm Detection using News Headlines Dataset." AI Open (2023).
+2. Misra, Rishabh and Jigyasa Grover. "Sculpting Data for ML: The first act of Machine Learning." ISBN 9798585463570 (2021).
